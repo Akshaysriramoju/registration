@@ -1,13 +1,13 @@
-package com.example.signup.Service;
-
-import com.example.signup.Dto.RegisterRequest;
-import com.example.signup.Dto.RegisterResponse;
-import com.example.signup.Entity.User;
-import com.example.signup.Exception.UserAlreadyExistsException;
-import com.example.signup.Repository.UserRepository;
+package com.example.register.Service;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.example.register.Dto.RegisterRequest;
+import com.example.register.Dto.RegisterResponse;
+import com.example.register.Entity.User;
+import com.example.register.Exception.UserAlreadyExistsException;
+import com.example.register.Repository.UserRepository;
 
 import java.time.LocalDateTime;
 

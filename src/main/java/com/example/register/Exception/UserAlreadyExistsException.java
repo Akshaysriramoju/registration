@@ -1,4 +1,4 @@
-package com.example.signup.Exception;
+package com.example.register.Exception;
 
 public class UserAlreadyExistsException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.example.signup.Dto;
+package com.example.register.Dto;
 
 public class RegisterResponse {
 
